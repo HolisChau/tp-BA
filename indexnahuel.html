@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Document</title>
+    <link rel="stylesheet" href="css/cssnahuel.css">
+</head>
+
+<body class="show-content">
+
+    <header>
+        <h1>Tabla Periodica</h1>
+    </header>
+    <main>
+        <!-- en esta parte hago una breve intruduccion a lo que son las propiedades periodicas -->
+        <section class="def_prop_periodicas">
+            <h2>¿Qué son las propiedades periódicas?</h2>
+            <p>Las propiedades periódicas son características que tienden a variar de manera predecible a lo largo de la
+                tabla periódica debido a la estructura electrónica de los átomos.
+                <br> Aquí están algunas de las propiedades periódicas más importantes:
+            </p>
+        </section>
+        <section id="prop_enf_t_periodica">
+            <!-- aca enumero las propiedades periodicas -->
+            <section class="prop_periodicas">
+                <div class="RI">
+                    <h2>Radio Ionico</h2>
+                </div>
+                <div class="RA">
+                    <h2>Radio Atomico</h2>
+                </div>
+                <div class="AE">
+                    <h2>Afinidad Electronica</h2>
+                </div>
+                <div class="E">
+                    <h2>Electronegatividad</h2>
+                </div>
+                <div class="EI">
+                    <h2>Energia de ionizacion</h2>
+                </div>
+            </section>
+            <section class="t_periodica">
+                <!-- en esta parte armo la estructuta de la tabla periodica -->
+                <div class="estructura_tabla">
+                    <div class="tab">
+                        <div class="tamanio tabla">
+                            <img src="img/tabla.jpg" alt="">
+                        </div>
+                        <div class="lineah tamanio"></div>    
+                        <!-- esta caja busque que se coloque arriba de la imagen de la tabla periodica para que a futuro pueda representar como cambia una 
+                            propiedad periodica de izquierda a derecha en la tabla. quiero que al pasar por arriba de las propiedades periodicas que enumere arriba cambie-->
+                    </div>
+                    <div class="lineav"></div>
+                    <!-- esta caja busque que se coloque a la izquierda de la imagen de la tabla periodica para que a futuro pueda representar como cambia una 
+                            propiedad periodica de arriba a abajo en la tabla. quiero que al pasar por arriba de las propiedades periodicas que enumere arriba cambie-->
+                </div>
+            </section>
+        </section>
+        <section id="explicacion">
+            <!-- en esta parte hago una breve explicacion de cada una de las propiedades periodicas anteriores -->
+            <div>
+            <!-- este div es para que a la hora de aplicar flex me quede todo en el medio de la pagina -->
+                <div>
+                    <h2>
+                        Descripción de cada una de las propiedades periódicas anteriormente nombradas:
+                    </h2>
+                </div>
+                <ol>
+                    <li>
+                        <h3>Radio atómico:</h3>
+                        <ul>
+                            <li>
+                                El radio atómico es la mitad de la distancia entre los núcleos de dos átomos adyacentes
+                                en una molécula o sólido cristalino.
+                            </li>
+                            <li>
+                                En general, el radio atómico tiende a disminuir de izquierda a derecha a lo largo de un
+                                período y aumentar de arriba abajo en un grupo.
+                            </li>
+                            <li>
+                                Esto se debe a la mayor carga nuclear efectiva (la fuerza neta que atrae a los
+                                electrones hacia el núcleo) en elementos con más protones en el núcleo, lo que hace que
+                                los electrones estén más cerca del núcleo.
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3>Radio iónico:</h3>
+                        <ul>
+                            <li>
+                                El radio iónico se refiere al tamaño de un ion (un átomo que ha ganado o perdido
+                                electrones) en comparación con su átomo neutro correspondiente.
+                            </li>
+                            <li>
+                                Los iones positivos (cationes) tienden a ser más pequeños que sus átomos neutros debido
+                                a la pérdida de electrones, mientras que los iones negativos (aniones) tienden a ser más
+                                grandes debido a la ganancia de electrones.
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3>Energía de ionización:</h3>
+                        <ul>
+                            <li>
+                                La energía de ionización es la cantidad de energía necesaria para eliminar un electrón
+                                de un átomo en estado gaseoso para formar un ion positivo (catión).
+                            </li>
+                            <li>
+                                La energía de ionización tiende a aumentar de izquierda a derecha a lo largo de un
+                                período y disminuir de arriba abajo en un grupo debido a la mayor carga nuclear
+                                efectiva.
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3>Afinidad electrónica:</h3>
+                        <ul>
+                            <li>
+                                La afinidad electrónica es la cantidad de energía liberada cuando un átomo en estado
+                                gaseoso captura un electrón para formar un ion negativo (anión).
+                            </li>
+                            <li>
+                                En general, la afinidad electrónica aumenta de izquierda a derecha a lo largo de un
+                                período y disminuye de arriba abajo en un grupo.
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3>Electronegatividad:</h3>
+                        <ul>
+                            <li>
+                                La electronegatividad es la capacidad de un átomo para atraer electrones en un enlace
+                                químico. Los átomos más electronegativos tienen una mayor afinidad por los electrones.
+                            </li>
+                            <li>
+                                La electronegatividad tiende a aumentar de izquierda a derecha a lo largo de un período
+                                y disminuir de arriba abajo en un grupo.
+                            </li>
+                        </ul>
+                    </li>
+                </ol>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Trabajo de Nahuel B.M </p>
+    </footer>
+    <script>
+        setTimeout(function () {
+            document.body.classList.add('show-content');
+        }, 120); 
+    </script>
+</body>
+
+</html>
